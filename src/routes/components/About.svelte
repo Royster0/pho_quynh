@@ -1,7 +1,13 @@
 <section class="about" id="about">
 	<div class="container">
 		<h2>About Us</h2>
-		<p>Aliquip commodo adipisicing esse mollit nulla consequat deserunt.</p>
+		<p>
+			As a family-owned restaurant, we strive to create a warm and welcoming
+			atmosphere where everyone feels like a part of our extended family. Our
+			mission is to share the authentic taste of Vietnam with our community,
+			one meal at a time, and we take pride in serving dishes that remind us
+			of home.
+		</p>
 	</div>
 </section>
 
@@ -22,5 +28,14 @@
 		margin: 0 auto;
 		font-size: 1.1rem;
 		color: #f3f3f3;
+	}
+
+	@media (max-width: 768px) {
+		.about h2 {
+			font-size: 2rem;
+		}
+		.about p {
+			font-size: 1rem;
+		}
 	}
 </style>

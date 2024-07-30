@@ -28,7 +28,7 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		background-color: rgba(0, 0, 0, 0.8);
+		background-color: rgba(0, 0, 0, 0.9);
 		padding: 10px 20px;
 		position: fixed;
 		width: 100%;
@@ -39,7 +39,7 @@
 
 	nav a {
 		color: white;
-		padding: 14px 20px;
+		padding: 14px 50px;
 		font-size: 1.2rem;
 		transition: background-color 0.3s;
 		position: relative;
@@ -51,7 +51,7 @@
 
 	.nav-item {
 		position: relative;
-		margin: 15px;
+		margin: 15px 15px;
 	}
 
 	.submenu {
@@ -79,6 +79,23 @@
 	}
 
 	.spacer {
-		height: 76px;
+		height: 70px;
+	}
+
+	@media (max-width: 768px) {
+		nav {
+			flex-direction: column;
+		}
+
+		.nav-item {
+			width: 100%;
+			text-align: center;
+		}
+
+		.submenu {
+			position: static;
+			width: 100%;
+			margin-top: 15px;
+		}
 	}
 </style>

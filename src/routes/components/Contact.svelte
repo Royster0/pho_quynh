@@ -84,4 +84,24 @@
 	iframe {
 		margin-top: 40px;
 	}
+
+	@media (max-width: 768px) {
+		.hours-list {
+			grid-template-columns: 1fr;
+		}
+
+		.hours-list div {
+			text-align: center;
+		}
+
+		.contact h2 {
+			font-size: 2rem;
+		}
+
+		.contact p,
+		.business-hours h3,
+		.hours-list div {
+			font-size: 1rem;
+		}
+	}
 </style>

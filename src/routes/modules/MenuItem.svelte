@@ -6,24 +6,30 @@
 </script>
 
 <div class="menu-item">
-	<img src={image} alt={name} />
+	{#if image != null}
+		<img src={image} alt={name} />
+	{/if}
 	<p class="name">{name}</p>
 	<p class="desc">{desc}</p>
-	<p class="price">${price}</p>
+	{#if price != null}
+		<p class="price">${price}</p>
+	{/if}
 </div>
 
 <style>
 	.menu-item {
-		display: inline-block;
+		display: grid;
+		grid-template-rows: auto auto 1fr;
+		align-items: start;
+		gap: 0px;
 		margin: 20px;
-		max-width: 250px;
+		max-width: 450px;
 		text-align: center;
 	}
 
 	.menu-item img {
 		width: 100%;
 		height: auto;
-		border-radius: 7px;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 		transition: transform 0.3s;
 	}

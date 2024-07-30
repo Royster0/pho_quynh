@@ -49,4 +49,10 @@
 			transform: translateY(0);
 		}
 	}
+
+	@media (max-width: 600px) {
+		.header h1 {
+			font-size: 2.5rem;
+		}
+	}
 </style>
