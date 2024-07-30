@@ -14,7 +14,7 @@
 		background-image: url("/menu_items/pho_img.png");
 		background-size: cover;
 		background-position: center;
-		color: white;
+		color: #d0b457;
 		text-align: center;
 		position: relative;
 	}

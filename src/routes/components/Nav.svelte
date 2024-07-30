@@ -10,7 +10,7 @@
 	<div class="nav-item"><a href="#header">Home</a></div>
 	<div class="nav-item"><a href="#about">About</a></div>
 	<div class="nav-item">
-		<a href="" on:click={toggleMenu}>Menu</a>
+		<a on:click={toggleMenu}>Menu</a>
 
 		<div class="submenu" style:display={isMenuOpen ? "block" : "none"}>
 			<a href="#appetizers">Appetizers</a>
@@ -57,9 +57,9 @@
 	.submenu {
 		display: none;
 		position: absolute;
-		top: 100%;
+		top: 170%;
 		left: 0;
-		background-color: #8d6e63;
+		background-color: #003b46;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 		overflow: hidden;
 	}
