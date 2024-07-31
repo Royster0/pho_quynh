@@ -114,7 +114,7 @@
 			{
 				name: "Com Sườn Nướng",
 				desc: "Porkchop Rice Dish",
-				image: "/menu_items/com_suon_heo.jpeg",
+				image: "/menu_items/com_suon_heo.avif",
 				price: 11.99,
 			},
 		],
