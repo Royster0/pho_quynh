@@ -171,7 +171,7 @@
 	.menu {
 		padding: 80px 20px;
 		text-align: center;
-		background-color: #003b46;
+		background-color: #113f51;
 	}
 
 	.menu h2 {

@@ -1,4 +1,7 @@
 <script>
+	import { fly, scale } from "svelte/transition";
+	import { quadOut } from "svelte/easing";
+
 	let isMenuOpen = false;
 
 	function toggleMenu() {
@@ -59,7 +62,7 @@
 		position: absolute;
 		top: 170%;
 		left: 0;
-		background-color: #003b46;
+		background-color: #0e3341;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 		overflow: hidden;
 	}
