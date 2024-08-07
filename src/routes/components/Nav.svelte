@@ -1,7 +1,4 @@
 <script>
-	import { fly, scale } from "svelte/transition";
-	import { quadOut } from "svelte/easing";
-
 	let isMenuOpen = false;
 
 	function toggleMenu() {
@@ -18,7 +15,7 @@
 		<div class="submenu" style:display={isMenuOpen ? "block" : "none"}>
 			<a href="#appetizers">Appetizers</a>
 			<a href="#pho">Pho</a>
-			<a href="#rice">Rice Dishes</a>
+			<a href="#rice_dishes">Rice Dishes</a>
 			<a href="#vermicelli">Vermicelli</a>
 		</div>
 	</div>
@@ -62,7 +59,7 @@
 		position: absolute;
 		top: 170%;
 		left: 0;
-		background-color: #0e3341;
+		background-color: #1f4653;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 		overflow: hidden;
 	}
