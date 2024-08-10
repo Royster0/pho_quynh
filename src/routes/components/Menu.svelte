@@ -6,7 +6,7 @@
 			{
 				name: "Gỏi Cuốn Tôm Thịt",
 				desc: "Fresh Spring Rolls with Shrimp and Pork",
-				image: "/menu_items/spring_rolls.avif",
+				image: "/menu_items/blank.png",
 				price: 8.49,
 			},
 			{
@@ -18,7 +18,7 @@
 			{
 				name: "Chả Giò",
 				desc: "Egg Rolls",
-				image: "/menu_items/egg_roll.avif",
+				image: "/menu_items/blank.png",
 				price: 9.0,
 			},
 			{
@@ -40,15 +40,21 @@
 				price: 9.55,
 			},
 			{
+				name: "Bánh Khọt",
+				desc: "Mini Savory Pancakes (Only available on weekdays!)",
+				image: "/menu_items/banh-khot.png",
+				price: 20.0,
+			},
+			{
 				name: "Bánh Bôt Loc",
 				desc: "Fried Pot Stickers",
-				image: "/menu_items/pot_stickers.avif",
+				image: "/menu_items/potstickers.png",
 				price: 8.99,
 			},
 			{
 				name: "Mực Chiên",
 				desc: "Fried Calamari",
-				image: "/menu_items/fried_calamari.avif",
+				image: "/menu_items/blank.png",
 				price: 8.99,
 			},
 		],
@@ -88,19 +94,19 @@
 			{
 				name: "Tái",
 				desc: "Round-eye Steak Pho",
-				image: "/menu_items/pho_tai.jpg",
+				image: "/menu_items/blank.png",
 				price: 11.99,
 			},
 			{
 				name: "Chín, Bò Viên",
 				desc: "Brisket, Meatball Pho",
-				image: "/menu_items/pho_chin_bo_vien.jpg",
+				image: "/menu_items/blank.png",
 				price: 11.99,
 			},
 			{
 				name: "Xương To",
 				desc: "Tomahawk Pho",
-				image: "/menu_items/tomahawk_pho.jpeg",
+				image: "/menu_items/tomahawk-pho.png",
 				price: 11.99,
 			},
 		],
@@ -108,13 +114,13 @@
 			{
 				name: "Com Đậu Hũ",
 				desc: "Tofu Rice Dish",
-				image: "/menu_items/com_dau_hu.jpeg",
+				image: "/menu_items/com-tofu.png",
 				price: 11.99,
 			},
 			{
 				name: "Com Sườn Nướng",
 				desc: "Porkchop Rice Dish",
-				image: "/menu_items/com_suon_heo.avif",
+				image: "/menu_items/com-suon-heo.png",
 				price: 11.99,
 			},
 		],
@@ -122,13 +128,13 @@
 			{
 				name: "Bún Thịt Nướng",
 				desc: "Sliced Pork Vermicelli Bowl",
-				image: "/menu_items/bun_thit_nuong.jpg",
+				image: "/menu_items/blank.png",
 				price: 11.99,
 			},
 			{
 				name: "Bánh Hỏi",
 				desc: "Thin Vermicelli with Grilled Shrimp Wrapped Around Sugar Cane and Grilled Pork Patties",
-				image: "/menu_items/banh_hoi.avif",
+				image: "/menu_items/banh-hoi.png",
 				price: 11.99,
 			},
 		],
