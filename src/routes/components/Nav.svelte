@@ -14,9 +14,12 @@
 
 		<div class="submenu" style:display={isMenuOpen ? "block" : "none"}>
 			<a href="#appetizers">Appetizers</a>
+			<a href="#vietnamese_sandwiches">Banh Mi</a>
 			<a href="#pho">Pho</a>
 			<a href="#rice_dishes">Rice Dishes</a>
 			<a href="#vermicelli">Vermicelli</a>
+			<a href="#dessert">Dessert</a>
+			<a href="#bubble_tea">Bubble Tea</a>
 		</div>
 	</div>
 	<div class="nav-item"><a href="#contact">Contact</a></div>

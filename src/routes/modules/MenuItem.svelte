@@ -22,7 +22,7 @@
 		grid-template-rows: auto auto 1fr;
 		align-items: start;
 		gap: 0px;
-		margin: 20px;
+		margin: 40px;
 		max-width: 450px;
 		text-align: center;
 	}
