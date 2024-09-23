@@ -6,6 +6,7 @@
 </section>
 
 <style>
+	/* Header Container */
 	.header {
 		display: flex;
 		justify-content: center;
@@ -19,6 +20,7 @@
 		position: relative;
 	}
 
+	/* Shadow Overlay on Image */
 	.overlay {
 		position: absolute;
 		top: 0;

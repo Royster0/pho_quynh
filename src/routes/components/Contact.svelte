@@ -25,8 +25,8 @@
 	</div>
 
 	<iframe
+		title="pho"
 		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5409.473563040683!2d-122.31862934289914!3d47.319480512714414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490577a2a28e07f%3A0x4da4f84f392bcc40!2zUGjhu58gUXXhu7NuaCBSZXN0YXVyYW50!5e0!3m2!1sen!2sus!4v1722344349420!5m2!1sen!2sus"
-		width="600"
 		height="450"
 		style="border:0;"
 		allowfullscreen=""

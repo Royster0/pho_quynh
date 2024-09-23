@@ -397,6 +397,7 @@
 	.price {
 		font-size: 1.4rem;
 		font-weight: 700;
+		margin-bottom: 20px;
 		color: #d0b457;
 	}
 
@@ -415,5 +416,6 @@
 	.sub-text {
 		color: #d6d6d6;
 		font-size: 1.1rem;
+		margin-bottom: 20px;
 	}
 </style>

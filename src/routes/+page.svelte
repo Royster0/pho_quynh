@@ -1,6 +1,4 @@
 <script>
-	import { Hamburger } from "svelte-hamburgers";
-
 	import Nav from "./components/Nav.svelte";
 	import Header from "./components/Header.svelte";
 	import About from "./components/About.svelte";
