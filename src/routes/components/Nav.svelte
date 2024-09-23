@@ -1,18 +1,29 @@
 <script>
-	let isMenuOpen = false;
+	import { fade, fly } from "svelte/transition";
 
-	function toggleMenu() {
-		isMenuOpen = !isMenuOpen;
+	export let open;
+	let isSubMenuOpen = false;
+
+	function toggleSubMenu() {
+		isSubMenuOpen = !isSubMenuOpen;
 	}
 </script>
 
-<nav>
-	<div class="nav-item"><a href="#header">Home</a></div>
-	<div class="nav-item"><a href="#about">About</a></div>
-	<div class="nav-item">
-		<a on:click={toggleMenu}>Menu</a>
+{#if open}
+<nav class="nav" in:fade={{ duration: 130 }} out:fade={{ duration: 150 }}>
+	<div class="nav-item" transition:fly={{ y: '100%', delay: 50 }} >
+		<a href="#header">Home</a>
+	</div>
+	<div class="nav-item" transition:fly={{ y: '100%', delay: 100 }} >
+		<a href="#about">About</a>
+	</div>
+	<div class="nav-item" transition:fly={{ y: '100%', delay: 150 }} >
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<a on:click={toggleSubMenu}>Menu</a>
 
-		<div class="submenu" style:display={isMenuOpen ? "block" : "none"}>
+		<div class="submenu" style:display={isSubMenuOpen ? "block" : "none"}>
 			<a href="#appetizers">Appetizers</a>
 			<a href="#vietnamese_sandwiches">Banh Mi</a>
 			<a href="#pho">Pho</a>
@@ -22,9 +33,11 @@
 			<a href="#bubble_tea">Bubble Tea</a>
 		</div>
 	</div>
-	<div class="nav-item"><a href="#contact">Contact</a></div>
+	<div class="nav-item" transition:fly={{ y: '100%', delay: 200 }} >
+		<a href="#contact">Contact</a>
+	</div>
 </nav>
-<div class="spacer"></div>
+{/if}
 
 <style>
 	nav {
@@ -79,10 +92,6 @@
 
 	.nav-item:hover .submenu {
 		display: block;
-	}
-
-	.spacer {
-		height: 70px;
 	}
 
 	@media (max-width: 768px) {
